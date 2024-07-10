@@ -9,6 +9,7 @@ function PlantList() {
 
     useEffect(() => {
         // dispatch an action to request the plantList from the API
+        dispatch({ type: 'FETCH_PLANTS' })
     }, []); 
 
     return (
